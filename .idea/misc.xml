@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.30666666666666664" />
         <entry key="app/src/main/res/drawable/ic_holiday_svgrepo_com.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/events_item.xml" value="0.14361702127659576" />
         <entry key="app/src/main/res/layout/fragment_events.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_holidays.xml" value="0.19753123891969077" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14447463768115942" />
