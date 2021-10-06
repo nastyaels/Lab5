@@ -17,14 +17,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/eventList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/events_item"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/events_title"
-            tools:itemCount="12"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/eventList"
+        android:paddingBottom="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/events_title"
+        tools:itemCount="100"
+        tools:listitem="@layout/events_item" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
