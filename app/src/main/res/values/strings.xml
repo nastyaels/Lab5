@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="events_fragment">Events</string>
+    <string name="holidays_fragment">Holiday</string>
+    <string name="profile_fragment">Profile</string>
+</resources>

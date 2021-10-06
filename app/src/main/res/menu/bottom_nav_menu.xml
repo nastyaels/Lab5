@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/event"
+      android:title="event"
+      android:icon="@drawable/ic_event"/>
+    <item
+        android:id="@+id/holiday"
+        android:title="holiday"
+        android:icon="@drawable/ic_holiday"/>
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/ic_profile"/>
+</menu>
