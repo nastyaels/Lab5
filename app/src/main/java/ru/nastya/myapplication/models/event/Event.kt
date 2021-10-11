@@ -1,4 +1,4 @@
-package ru.nastya.myapplication
+package ru.nastya.myapplication.models.event
 
 import java.util.*
 

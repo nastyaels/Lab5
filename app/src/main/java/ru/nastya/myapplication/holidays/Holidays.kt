@@ -1,10 +1,11 @@
-package ru.nastya.myapplication
+package ru.nastya.myapplication.holidays
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import ru.nastya.myapplication.R
 
 
 class Holidays : Fragment() {

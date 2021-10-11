@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import ru.nastya.myapplication.databinding.ActivityMainBinding
+import ru.nastya.myapplication.events.Events
+import ru.nastya.myapplication.holidays.Holidays
+import ru.nastya.myapplication.profile.Profile
 
 
 class MainActivity : AppCompatActivity() {

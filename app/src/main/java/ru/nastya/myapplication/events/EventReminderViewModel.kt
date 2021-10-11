@@ -1,7 +1,9 @@
-package ru.nastya.myapplication
+package ru.nastya.myapplication.events
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import ru.nastya.myapplication.models.event.Event
+import ru.nastya.myapplication.models.event.EventObject
 
 class EventReminderViewModel : ViewModel() {
     private val events: MutableLiveData<List<Event>> = MutableLiveData()

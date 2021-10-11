@@ -12,7 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
-            android:name="ru.nastya.myapplication.Profile" />
+            android:name="ru.nastya.myapplication.profile.Profile" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"

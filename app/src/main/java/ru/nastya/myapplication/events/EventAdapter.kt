@@ -1,8 +1,9 @@
-package ru.nastya.myapplication
+package ru.nastya.myapplication.events
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import ru.nastya.myapplication.models.event.Event
 import ru.nastya.myapplication.databinding.EventsItemBinding
 
 class EventAdapter : RecyclerView.Adapter<EventAdapter.EventHolder>() {
@@ -17,7 +18,7 @@ class EventAdapter : RecyclerView.Adapter<EventAdapter.EventHolder>() {
                 binding.eventDate.text = item.dateStart.toString()
             }
         companion object{
-            fun from(parent: ViewGroup) : EventHolder{
+            fun from(parent: ViewGroup) : EventHolder {
                 val binding = EventsItemBinding.inflate(
                     LayoutInflater.from(parent.context), parent,false
                 )

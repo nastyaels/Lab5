@@ -1,4 +1,4 @@
-package ru.nastya.myapplication
+package ru.nastya.myapplication.events
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -16,7 +16,8 @@ import ru.nastya.myapplication.databinding.FragmentEventsBinding
 class Events : Fragment() {
 
     private lateinit var binding: FragmentEventsBinding
-    private val viewModel: EventReminderViewModel by lazy { ViewModelProvider(this).get(EventReminderViewModel::class.java) }
+    private val viewModel: EventReminderViewModel by lazy { ViewModelProvider(this).get(
+        EventReminderViewModel::class.java) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
