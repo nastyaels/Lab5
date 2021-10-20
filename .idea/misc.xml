@@ -6,13 +6,22 @@
         <entry key="app/src/main/res/drawable/holiday.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_event_note_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.30666666666666664" />
+        <entry key="app/src/main/res/drawable/ic_event.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fab.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_holiday.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_holiday_svgrepo_com.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_info_24.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/events_item.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/fragment_add_new_event.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_events.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_holidays.xml" value="0.19753123891969077" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14447463768115942" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.14447463768115942" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2907692307692308" />
       </map>
     </option>

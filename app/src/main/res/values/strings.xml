@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Event Reminder</string>
     <string name="events_fragment">Events</string>
     <string name="holidays_fragment">Holiday</string>
     <string name="profile_fragment">Profile</string>
+
+    <string name="settingsLabel">Settings</string>
+    <string name="aboutLabel">About</string>
+
+    <string name="shareFriends">Share friends</string>
+    <string name="shareDescription">App!!!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

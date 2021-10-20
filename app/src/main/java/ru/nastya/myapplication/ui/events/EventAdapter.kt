@@ -1,4 +1,4 @@
-package ru.nastya.myapplication.events
+package ru.nastya.myapplication.ui.events
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -1,4 +1,4 @@
-package ru.nastya.myapplication.events
+package ru.nastya.myapplication.ui.events
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-
+import ru.nastya.myapplication.MainActivity
 
 import ru.nastya.myapplication.databinding.FragmentEventsBinding
 
@@ -35,6 +35,11 @@ class Events : Fragment() {
                 adapter.refreshEvents(it)
             }
         })
+        val fab = (activity as MainActivity?)!!.getFloatingActionButton()
+
+        if (fab != null) {
+            (activity as MainActivity?)!!.showFloatingActionButton()
+        }
         return binding.root
     }
 

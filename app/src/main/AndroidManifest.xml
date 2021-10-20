@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ru.nastya.myapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -8,16 +9,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
+        android:theme="@style/Theme.MemoryBirthday">
         <activity
-            android:name=".MainActivity"
+            android:name="ru.nastya.myapplication.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MemoryBirthday.NoActionBar"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name="ru.nastya.myapplication.ui.profile.AboutActivity"
+            android:label="@string/aboutLabel"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name="ru.nastya.myapplication.ui.profile.SettingsActivity"
+            android:label="@string/settingsLabel"
+            android:parentActivityName=".MainActivity" />
+
+
     </application>
 
 </manifest>
